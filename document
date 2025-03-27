@@ -1,0 +1,105 @@
+DevOps Onboarding Guide for New Joiners
+Welcome!
+Welcome to the [Company Name] DevOps team! This guide will help you get started with our systems, tools, and workflows. Our goal is to empower you to contribute effectively as quickly as possible. If you have questions, feel free to reach out to your onboarding buddy or team lead.
+
+Current Date: March 27, 2025
+
+Your Onboarding Buddy: [Name, Contact Info]
+
+Team Lead: [Name, Contact Info]
+
+1. Objectives
+By the end of your first week, you should:
+
+Understand our DevOps culture and workflows.
+Gain access to all necessary tools and systems.
+Set up your local development environment.
+Be familiar with our infrastructure and deployment processes.
+2. Team Overview
+Mission: We ensure reliable, scalable, and automated systems to support [Company Name]’s products/services.
+Key Responsibilities:
+Building and maintaining CI/CD pipelines.
+Managing cloud infrastructure (e.g., AWS, GCP, Azure).
+Monitoring system performance and responding to incidents.
+Collaborating with developers to deploy features safely and efficiently.
+Team Members: [List names, roles, and a brief description of what they focus on.]
+3. Day 1 Checklist
+Access Setup:
+Get your company email and login credentials from IT.
+Set up 2FA (two-factor authentication) for all accounts.
+Request access to:
+[Git Repository Platform, e.g., GitHub/GitLab] - Team: [Team Name]
+[Cloud Provider, e.g., AWS] - Role: [Specify Role, e.g., DevOps Engineer]
+[Collaboration Tool, e.g., Slack] - Channels: #devops, #alerts, #general
+[Documentation Platform, e.g., Confluence/Notion/Git Wiki]
+[Monitoring Tool, e.g., Datadog/Prometheus]
+[Incident Management Tool, e.g., PagerDuty]
+Hardware/Software:
+Ensure your laptop is set up (IT will provide specs if company-issued).
+Install essential tools: Git, Docker, VS Code (or preferred IDE), and a terminal of your choice.
+First Task: Clone the [main repository, e.g., git clone <repo-url>] and explore the README.
+4. Tools We Use
+Here’s a quick rundown of our core tools:
+
+Version Control: [GitHub/GitLab] - All code and IaC (Infrastructure as Code) lives here.
+CI/CD: [Jenkins/GitHub Actions/CircleCI] - Automates builds, tests, and deployments.
+Cloud: [AWS/GCP/Azure] - Hosts our infrastructure.
+Containerization: Docker - For packaging applications.
+Orchestration: Kubernetes - Manages containerized workloads.
+IaC: Terraform - Defines and provisions infrastructure.
+Monitoring: [Datadog/Prometheus/New Relic] - Tracks system health.
+Collaboration: [Slack/Teams] - Daily communication and alerts.
+Documentation: [Confluence/Notion/Git Wiki] - Centralized knowledge base.
+5. Setting Up Your Environment
+Follow these steps to configure your local setup:
+
+Install Prerequisites:
+Git: sudo apt install git (Linux) or download from git-scm.com.
+Docker: Follow official docs.
+Terraform: Download from terraform.io.
+Clone Key Repositories:
+Infrastructure: git clone <infra-repo-url>
+Application: git clone <app-repo-url>
+Configure Credentials:
+Set up SSH keys for Git: Guide.
+Authenticate with the cloud provider CLI (e.g., aws configure).
+Run a Test:
+Build a sample Docker container: docker build -t test-app .
+Verify access to Kubernetes: kubectl get nodes (after cluster access is granted).
+6. Key Processes to Know
+Code Workflow:
+Use feature branches (e.g., feature/my-task).
+Submit pull requests (PRs) for review; at least one approval is required.
+CI runs automated tests on every PR.
+Deployment:
+Deployments are triggered via [CI/CD tool] after merging to main.
+Rollbacks are manual—check the .
+Monitoring:
+Alerts go to [Slack channel, e.g., #alerts] and [PagerDuty].
+Dashboards are available in [monitoring tool].
+Incident Response:
+Follow the in the docs.
+Log incidents in [tool, e.g., Jira] and join the post-mortem.
+7. First Week Schedule
+Day 1: Access setup, meet the team, review this guide.
+Day 2: Environment setup, explore repos, shadow a deployment.
+Day 3: Read key docs (e.g., architecture overview, pipeline setup).
+Day 4: Work on a small task (e.g., update a config file) with your buddy.
+Day 5: Review progress with your team lead, ask questions, and plan next steps.
+8. Where to Find Help
+Documentation: [Link to Docs] - Start with the “Home” page.
+Slack Channels:
+#devops: General questions and discussions.
+#alerts: Real-time system notifications.
+Key Contacts:
+Onboarding Buddy: [Name] - Your go-to for quick questions.
+Team Lead: [Name] - For escalations or guidance.
+FAQs: Check the in the docs for common issues.
+9. Your First Task
+Update the README.md in the [infra repo] with your name under “Team Members.”
+Submit a PR and ping your onboarding buddy for review.
+10. Tips for Success
+Ask questions early and often—there’s no such thing as a dumb question here!
+Take notes as you go; they’ll be handy for future reference.
+Get comfortable with our tools by experimenting in a sandbox environment (ask for access if needed).
+We’re excited to have you on board! Let’s build something great together.
