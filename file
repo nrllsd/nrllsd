@@ -1,0 +1,100 @@
+# DevOps Onboarding Documentation
+
+## Welcome to the Team!
+Welcome to [Company Name]'s DevOps team! This guide will help you get set up, understand our workflows, and start contributing quickly. Our DevOps mission is to enable fast, reliable, and secure delivery of software through automation, collaboration, and scalable infrastructure.
+
+## Onboarding Goals
+By the end of your first week, you should:
+- Have access to all necessary tools and systems.
+- Understand our infrastructure and CI/CD processes.
+- Complete a small task (e.g., update a doc, deploy a test app).
+- Know who to ask for help.
+
+## 1. Day 1: Access & Setup
+**Objective**: Get your accounts and local environment ready.
+
+### Accounts to Request
+- **Email**: Contact HR/IT for your [company email].
+- **VPN**: Request access from IT (e.g., OpenVPN, Cisco AnyConnect).
+- **Cloud Platform**: [e.g., AWS, GCP, Azure] - Ask your manager for IAM role assignment.
+- **Source Control**: [e.g., GitHub, GitLab] - Get added to the org/repo by [team lead name].
+- **Collaboration Tools**: [e.g., Slack, Teams] - Join channels like `#devops`, `#alerts`.
+- **CI/CD Tool**: [e.g., Jenkins, CircleCI] - Request credentials from [DevOps lead name].
+- **Monitoring**: [e.g., Datadog, New Relic] - Request read-only access initially.
+
+### Local Environment Setup
+1. Install prerequisites:
+   - [e.g., Git, Docker, Python 3.x, Node.js]
+   - Use [package manager, e.g., Homebrew on macOS, apt on Ubuntu].
+2. Clone the onboarding repo: `[repo URL]` (contains scripts/configs).
+3. Run setup script: `[e.g., ./setup.sh]` to configure tools.
+4. Verify setup: Run `[e.g., docker --version]` and ping a teammate for confirmation.
+
+**Action Item**: Email IT with your account requests by EOD Day 1.
+
+## 2. Day 2-3: Learn the Basics
+**Objective**: Understand our systems and workflows.
+
+### Key Docs to Read
+- [Link to Infrastructure Overview]: High-level view of our cloud setup.
+- [Link to CI/CD Pipelines]: How we build, test, and deploy.
+- [Link to Monitoring Guide]: Where to check system health.
+
+### Shadow a Teammate
+- Pair with [team member name] to observe a deployment or incident response.
+- Ask about a recent task they completed (e.g., “How did you scale X?”).
+
+### Explore Tools
+- Log into [CI/CD tool] and view a recent pipeline run.
+- Check [monitoring tool] dashboards for live metrics.
+- Browse [source control repo] for a key project.
+
+**Action Item**: Summarize one process (e.g., deployment steps) in your own words and share with your manager.
+
+## 3. Day 4-5: Hands-On Practice
+**Objective**: Apply what you’ve learned with a small task.
+
+### Sample Tasks (pick one with your manager)
+- Update a README in [repo name] with a new command you learned.
+- Deploy a test app to staging using [CI/CD tool].
+- Set up a simple alert in [monitoring tool] (e.g., CPU > 80%).
+
+### Resources
+- [Link to Troubleshooting FAQ]: Common fixes.
+- Slack `#devops-help`: Ask quick questions.
+- Manager/mentor: [Name] for guidance.
+
+**Action Item**: Complete your task and document what you did in [doc platform, e.g., Confluence].
+
+## 4. Team & Workflow Overview
+### Team Structure
+- **DevOps Lead**: [Name] - Oversees strategy and escalations.
+- **Engineers**: [Names] - Handle pipelines, infra, and incidents.
+- **You**: [Your role, e.g., Junior DevOps Engineer] - Focus on [e.g., monitoring, deployments].
+
+### Daily Workflow
+- **Standup**: [Time, e.g., 10 AM] via [e.g., Zoom, Slack].
+- **Ticket System**: [e.g., Jira] - Check your assigned tasks.
+- **Alerts**: Respond to [e.g., PagerDuty] pings as needed.
+
+### Communication
+- **Urgent**: [e.g., Slack DM or #alerts].
+- **Non-urgent**: [e.g., Jira comments, email].
+
+## 5. Key Contacts
+- **Manager**: [Name] - [Email/Slack] - For onboarding questions.
+- **IT Support**: [Name/Email] - For access issues.
+- **DevOps Buddy**: [Name] - Your go-to for day-to-day help.
+
+## 6. Checklist
+- [ ] Accounts requested and received.
+- [ ] Local environment set up and verified.
+- [ ] Read core documentation.
+- [ ] Shadowed a deployment or task.
+- [ ] Completed a small hands-on task.
+- [ ] Attended standup and introduced yourself.
+
+## 7. Next Steps
+- **Week 2**: Dive into a real project (e.g., improve a pipeline, set up monitoring).
+- Ask for feedback on your first task from [manager name].
+- Contribute to this doc with anything you found unclear!
